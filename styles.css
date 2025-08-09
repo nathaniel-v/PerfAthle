@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    /* background-color: #e26b50; */
+    background: linear-gradient(145deg, #c56853 , #a67a6e38, #c56853 );
+}
+
+.description {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+#search {
+    font-size: 17px;
+    border-radius: 3px;
+}
+
+#search-button:hover {
+    background-color: #a54a4a;
+    
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+
+}f
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+.athlete-card {
+    background-color: rgb(239, 170, 170);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 2px;
+    max-width: 500px;
+    box-shadow: rgb(159, 71, 71) 0px 2px 10px;
+}
+
+.athlete-card img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px ;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+.separator {
+    margin-top: 25px;
+    height: 2px;
+    background-color: #ba4141;
+    border-color: #cf6969;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.goat {
+    font-size: 35px;
+}
+
+.footer {
+    margin-bottom: 60px;
+}
+
+#top {
+    text-align: center;
+}
+
+.footer img {
+    width: 40px;
+    height: auto;
+}
